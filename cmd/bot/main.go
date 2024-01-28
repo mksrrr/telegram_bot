@@ -3,8 +3,9 @@ package main
 import (
 	"log"
 	"os"
-	"telegram_bot/internal/app/commander"
-	"telegram_bot/internal/service/product"
+
+	"github.com/fahretD/telegram_bot/internal/app/commander"
+	"github.com/fahretD/telegram_bot/internal/service/product"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 	"github.com/joho/godotenv"

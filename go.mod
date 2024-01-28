@@ -1,4 +1,4 @@
-module telegram_bot
+module github.com/fahretD/telegram_bot
 
 go 1.21.5
 

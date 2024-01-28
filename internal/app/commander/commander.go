@@ -1,7 +1,7 @@
 package commander
 
 import (
-	"telegram_bot/internal/service/product"
+	"github.com/fahretD/telegram_bot/internal/service/product"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 )
