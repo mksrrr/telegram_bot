@@ -15,9 +15,9 @@ func main() {
 
 	token := os.Getenv("TOKEN")
 
-	bot, err := tgbotapi.NewBotAPI(token)
-	if err != nil {
-		log.Panic(err)
+	bot, errr := tgbotapi.NewBotAPI(token)
+	if errr != nil {
+		log.Panic(errr)
 	}
 
 	bot.Debug = true
